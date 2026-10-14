@@ -1,0 +1,42 @@
+Repository,File Name,Class,Start Line,End Line,Displacement,Level
+dataset_30,sample17.py,Simple List,3,3,9,A1
+dataset_30,sample17.py,Simple List,31,31,10,A1
+dataset_30,sample17.py,Simple List,11,11,22,A1
+dataset_30,sample17.py,Simple List,11,11,33,A1
+dataset_30,sample17.py,2 List Dictionary,11,11,13,B1
+dataset_30,sample17.py,Print,4,4,0,A1
+dataset_30,sample17.py,Print,17,17,0,A1
+dataset_30,sample17.py,Print,34,34,0,A1
+dataset_30,sample17.py,Print,44,44,0,A1
+dataset_30,sample17.py,Print,8,8,8,A1
+dataset_30,sample17.py,If statements expression (else),42,42,11,B1
+dataset_30,sample17.py,If statements expression (else),13,13,14,B1
+dataset_30,sample17.py,Simple Atributte,22,22,4,A2
+dataset_30,sample17.py,Simple Atributte,33,33,4,A2
+dataset_30,sample17.py,Simple Atributte,14,14,8,A2
+dataset_30,sample17.py,Simple Atributte,29,29,8,A2
+dataset_30,sample17.py,Simple Atributte,26,26,8,A2
+dataset_30,sample17.py,List Comprehension with 1If statements,41,41,15,C1
+dataset_30,sample17.py,Simple Assignment,3,3,0,A1
+dataset_30,sample17.py,Simple Assignment,31,31,0,A1
+dataset_30,sample17.py,Simple Assignment,11,11,4,A1
+dataset_30,sample17.py,Simple Assignment,38,38,4,A1
+dataset_30,sample17.py,Simple Assignment,39,39,4,A1
+dataset_30,sample17.py,Simple Assignment,40,40,4,A1
+dataset_30,sample17.py,Simple Assignment,41,41,4,A1
+dataset_30,sample17.py,Simple Assignment,13,13,8,A1
+dataset_30,sample17.py,'raise' exception,27,27,8,B1
+dataset_30,sample17.py,From,18,18,0,A2
+dataset_30,sample17.py,Simple If statements,7,8,4,A1
+dataset_30,sample17.py,Simple If statements,36,37,4,A1
+dataset_30,sample17.py,Simple For Loop,6,8,0,A1
+dataset_30,sample17.py,Simple For Loop,12,14,4,A1
+dataset_30,sample17.py,Exception --> try/except/else,23,29,4,B1
+dataset_30,sample17.py,With,32,33,0,B1
+dataset_30,sample17.py,Function with Simple argument,10,15,0,A1
+dataset_30,sample17.py,Function with Simple argument,21,29,0,A1
+dataset_30,sample17.py,Function with Simple argument,35,42,0,A1
+dataset_30,sample17.py,Return,15,15,4,A1
+dataset_30,sample17.py,Return,42,42,4,A1
+dataset_30,sample17.py,Return,37,37,8,A1
+dataset_30,sample17.py,Generator Function (yield),24,24,8,C1

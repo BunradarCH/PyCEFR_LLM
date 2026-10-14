@@ -1,0 +1,61 @@
+Repository,File Name,Class,Start Line,End Line,Displacement,Level
+dataset_30,sample27.py,Simple List,3,3,9,A1
+dataset_30,sample27.py,Simple List,51,51,13,A1
+dataset_30,sample27.py,Simple List,11,11,22,A1
+dataset_30,sample27.py,Simple List,11,11,33,A1
+dataset_30,sample27.py,2 List Dictionary,11,11,13,B1
+dataset_30,sample27.py,Print,4,4,0,A1
+dataset_30,sample27.py,Print,17,17,0,A1
+dataset_30,sample27.py,Print,39,39,0,A1
+dataset_30,sample27.py,Print,48,48,0,A1
+dataset_30,sample27.py,Print,57,57,0,A1
+dataset_30,sample27.py,Print,8,8,8,A1
+dataset_30,sample27.py,If statements expression (else),13,13,14,B1
+dataset_30,sample27.py,Simple Atributte,22,22,8,A2
+dataset_30,sample27.py,Simple Atributte,25,25,8,A2
+dataset_30,sample27.py,Simple Atributte,31,31,17,A2
+dataset_30,sample27.py,Simple Atributte,32,32,8,A2
+dataset_30,sample27.py,Simple Atributte,39,39,6,A2
+dataset_30,sample27.py,Simple Atributte,42,42,8,A2
+dataset_30,sample27.py,Simple Atributte,48,48,6,A2
+dataset_30,sample27.py,Simple Atributte,14,14,8,A2
+dataset_30,sample27.py,Simple Atributte,29,29,11,A2
+dataset_30,sample27.py,Simple Atributte,29,29,27,A2
+dataset_30,sample27.py,Simple Atributte,54,54,8,A2
+dataset_30,sample27.py,Simple Atributte,33,33,14,A2
+dataset_30,sample27.py,Simple Atributte,45,45,35,A2
+dataset_30,sample27.py,Simple List Comprehension,37,37,11,C1
+dataset_30,sample27.py,List Comprehension with 1If statements,45,45,15,C1
+dataset_30,sample27.py,Simple Assignment,3,3,0,A1
+dataset_30,sample27.py,Simple Assignment,47,47,0,A1
+dataset_30,sample27.py,Simple Assignment,11,11,4,A1
+dataset_30,sample27.py,Simple Assignment,50,50,4,A1
+dataset_30,sample27.py,Simple Assignment,51,51,4,A1
+dataset_30,sample27.py,Simple Assignment,13,13,8,A1
+dataset_30,sample27.py,Simple Assignment,22,22,8,A1
+dataset_30,sample27.py,Simple Assignment,25,25,8,A1
+dataset_30,sample27.py,Simple Assignment,31,31,8,A1
+dataset_30,sample27.py,Simple Assignment,42,42,8,A1
+dataset_30,sample27.py,Simplified incremental Assignment with increase amount,32,32,8,A2
+dataset_30,sample27.py,Simplified incremental Assignment with increase amount,53,53,8,A2
+dataset_30,sample27.py,'raise' exception,30,30,12,B1
+dataset_30,sample27.py,Import,18,18,0,A2
+dataset_30,sample27.py,Simple If statements,7,8,4,A1
+dataset_30,sample27.py,Simple If statements,29,30,8,A1
+dataset_30,sample27.py,Simple For Loop,6,8,0,A1
+dataset_30,sample27.py,Simple For Loop,12,14,4,A1
+dataset_30,sample27.py,Simple For Loop,52,54,4,A1
+dataset_30,sample27.py,Function with Simple argument,10,15,0,A1
+dataset_30,sample27.py,Function with Simple argument,49,55,0,A1
+dataset_30,sample27.py,Function with Simple argument,21,22,4,A1
+dataset_30,sample27.py,Function with Simple argument,24,26,4,A1
+dataset_30,sample27.py,Function with Simple argument,41,42,4,A1
+dataset_30,sample27.py,Function with Simple argument with Default argument,44,45,4,A2
+dataset_30,sample27.py,Return,15,15,4,A1
+dataset_30,sample27.py,Return,37,37,4,A1
+dataset_30,sample27.py,Return,55,55,4,A1
+dataset_30,sample27.py,Return,26,26,8,A1
+dataset_30,sample27.py,Return,34,34,8,A1
+dataset_30,sample27.py,Return,45,45,8,A1
+dataset_30,sample27.py,Simple Class  Using the constructor method --> __init__,20,34,0,B1
+dataset_30,sample27.py,Simple Class  Using the constructor method --> __init__,40,45,0,B1

@@ -1,0 +1,51 @@
+Repository,File Name,Class,Start Line,End Line,Displacement,Level
+dataset_30,sample29.py,Simple List,31,31,14,A1
+dataset_30,sample29.py,Simple List,49,49,12,A1
+dataset_30,sample29.py,Simple List,50,50,13,A1
+dataset_30,sample29.py,2 Nested Tuple,32,32,8,A2
+dataset_30,sample29.py,Simple Tuple,32,32,15,A1
+dataset_30,sample29.py,Simple Dictionary,33,38,23,A2
+dataset_30,sample29.py,'enumerate' call function,32,32,32,C2
+dataset_30,sample29.py,Print,54,54,4,A1
+dataset_30,sample29.py,Print,9,9,8,A1
+dataset_30,sample29.py,'map' call function,30,30,19,C2
+dataset_30,sample29.py,'zip' call function,32,32,42,C2
+dataset_30,sample29.py,Print,45,45,8,A1
+dataset_30,sample29.py,Super Function,24,24,17,C2
+dataset_30,sample29.py,If statements expression (else),19,19,15,B1
+dataset_30,sample29.py,Simple Atributte,16,16,8,A2
+dataset_30,sample29.py,Simple Atributte,9,9,26,A2
+dataset_30,sample29.py,Simple Atributte,24,24,17,A2
+dataset_30,sample29.py,Simple Atributte,25,25,15,A2
+dataset_30,sample29.py,Simple Atributte,33,33,8,A2
+dataset_30,sample29.py,Simple Atributte,19,19,34,A2
+dataset_30,sample29.py,Simple Atributte,37,37,22,A2
+dataset_30,sample29.py,Simple Assignment,30,30,4,A1
+dataset_30,sample29.py,Simple Assignment,31,31,4,A1
+dataset_30,sample29.py,Simple Assignment,49,49,4,A1
+dataset_30,sample29.py,Simple Assignment,50,50,4,A1
+dataset_30,sample29.py,Simple Assignment,51,51,4,A1
+dataset_30,sample29.py,Simple Assignment,52,52,4,A1
+dataset_30,sample29.py,Simple Assignment,16,16,8,A1
+dataset_30,sample29.py,Simple Assignment,24,24,8,A1
+dataset_30,sample29.py,From,3,3,0,A2
+dataset_30,sample29.py,If statements using → __name__ == ‘__main__’,57,58,0,B2
+dataset_30,sample29.py,For Loop with Tuple as name,32,38,4,A2
+dataset_30,sample29.py,Simple For Loop,44,45,4,A1
+dataset_30,sample29.py,Function with Simple argument,6,11,0,A1
+dataset_30,sample29.py,Function with Simple argument,29,39,0,A1
+dataset_30,sample29.py,Function with Simple argument,43,45,0,A1
+dataset_30,sample29.py,Function,48,54,0,A1
+dataset_30,sample29.py,Function with * argument  with ** argument,8,10,4,B1
+dataset_30,sample29.py,Function with Simple argument with Default argument,15,16,4,A2
+dataset_30,sample29.py,Function with Simple argument,18,19,4,A1
+dataset_30,sample29.py,Function with Simple argument,23,25,4,A1
+dataset_30,sample29.py,Lambda,30,30,23,B1
+dataset_30,sample29.py,Lambda,39,39,31,B1
+dataset_30,sample29.py,Return,11,11,4,A1
+dataset_30,sample29.py,Return,39,39,4,A1
+dataset_30,sample29.py,Return,10,10,8,A1
+dataset_30,sample29.py,Return,19,19,8,A1
+dataset_30,sample29.py,Return,25,25,8,A1
+dataset_30,sample29.py,Simple Class  Using the constructor method --> __init__,14,19,0,B1
+dataset_30,sample29.py,Inherited Class from ScorePolicy,22,25,0,B1

@@ -1,0 +1,43 @@
+Repository,File Name,Class,Start Line,End Line,Displacement,Level
+dataset_30,sample26.py,Simple List,3,3,9,A1
+dataset_30,sample26.py,Simple Tuple,39,39,11,A1
+dataset_30,sample26.py,Simple Dictionary,12,12,11,A2
+dataset_30,sample26.py,Simple Dictionary,17,17,15,A2
+dataset_30,sample26.py,Print,4,4,0,A1
+dataset_30,sample26.py,Print,15,15,0,A1
+dataset_30,sample26.py,Print,33,33,0,A1
+dataset_30,sample26.py,Print,43,43,0,A1
+dataset_30,sample26.py,Print,8,8,8,A1
+dataset_30,sample26.py,Print,40,40,8,A1
+dataset_30,sample26.py,Super Function,20,20,14,C2
+dataset_30,sample26.py,Simple Atributte,33,33,6,A2
+dataset_30,sample26.py,Simple Atributte,20,20,14,A2
+dataset_30,sample26.py,Simple Atributte,22,22,12,A2
+dataset_30,sample26.py,Simple Atributte,22,22,26,A2
+dataset_30,sample26.py,Simple Atributte,33,33,6,A2
+dataset_30,sample26.py,Simple Assignment,3,3,0,A1
+dataset_30,sample26.py,Simple Assignment,14,14,0,A1
+dataset_30,sample26.py,Simple Assignment,11,11,4,A1
+dataset_30,sample26.py,Simple Assignment,17,17,4,A1
+dataset_30,sample26.py,Simple Assignment,20,20,8,A1
+dataset_30,sample26.py,Simple Assignment,22,22,12,A1
+dataset_30,sample26.py,'raise' exception,27,27,8,B1
+dataset_30,sample26.py,'raise' exception,37,37,12,B1
+dataset_30,sample26.py,Simple If statements,7,8,4,A1
+dataset_30,sample26.py,Simple If statements,21,22,8,A1
+dataset_30,sample26.py,Simple If statements,36,37,8,A1
+dataset_30,sample26.py,Simple For Loop,6,8,0,A1
+dataset_30,sample26.py,Exception --> try/except,35,41,4,B1
+dataset_30,sample26.py,Function with Simple argument,10,12,0,A1
+dataset_30,sample26.py,Function with Simple argument,34,41,0,A1
+dataset_30,sample26.py,Function with Simple argument,19,23,4,A1
+dataset_30,sample26.py,Function with Simple argument,26,27,4,A1
+dataset_30,sample26.py,Function with Simple argument,30,31,4,A1
+dataset_30,sample26.py,Return,12,12,4,A1
+dataset_30,sample26.py,Return,23,23,8,A1
+dataset_30,sample26.py,Return,31,31,8,A1
+dataset_30,sample26.py,Return,38,38,8,A1
+dataset_30,sample26.py,Return,41,41,8,A1
+dataset_30,sample26.py,Inherited Class from type,16,23,0,B1
+dataset_30,sample26.py,Simple Class  Metaclass created in the class header --> 'metaclass = 'RegistryMeta,25,27,0,C2
+dataset_30,sample26.py,Inherited Class from Plugin,29,31,0,B1

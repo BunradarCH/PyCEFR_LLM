@@ -1,0 +1,57 @@
+Repository,File Name,Class,Start Line,End Line,Displacement,Level
+dataset_30,sample22.py,Simple List,38,39,10,A1
+dataset_30,sample22.py,Simple List,43,43,13,A1
+dataset_30,sample22.py,Simple Tuple,7,7,16,A1
+dataset_30,sample22.py,Simple Tuple,18,18,8,A1
+dataset_30,sample22.py,Simple Tuple,38,38,11,A1
+dataset_30,sample22.py,Simple Tuple,38,38,27,A1
+dataset_30,sample22.py,Simple Tuple,38,38,43,A1
+dataset_30,sample22.py,Simple Tuple,39,39,11,A1
+dataset_30,sample22.py,Simple Tuple,39,39,27,A1
+dataset_30,sample22.py,Simple Tuple,34,34,14,A1
+dataset_30,sample22.py,Simple Tuple,19,19,64,A1
+dataset_30,sample22.py,Simple Dictionary,29,29,11,A2
+dataset_30,sample22.py,Attribute  statements __slots__,7,7,4,C1
+dataset_30,sample22.py,'range' call function,33,33,17,A2
+dataset_30,sample22.py,Print,41,41,4,A1
+dataset_30,sample22.py,Print,42,42,4,A1
+dataset_30,sample22.py,Print,44,44,4,A1
+dataset_30,sample22.py,If statements expression (else),27,27,25,B1
+dataset_30,sample22.py,Simple Atributte,10,10,8,A2
+dataset_30,sample22.py,Simple Atributte,11,11,8,A2
+dataset_30,sample22.py,Simple Atributte,14,14,15,A2
+dataset_30,sample22.py,Simple Atributte,26,26,13,A2
+dataset_30,sample22.py,Simple Atributte,14,14,15,A2
+dataset_30,sample22.py,Simple Atributte,19,19,11,A2
+dataset_30,sample22.py,Simple Atributte,25,25,41,A2
+dataset_30,sample22.py,Simple Atributte,27,27,35,A2
+dataset_30,sample22.py,List Comprehension with 1If statements,25,25,11,C1
+dataset_30,sample22.py,Simple List Comprehension,26,26,12,C1
+dataset_30,sample22.py,Generator Expression,27,28,24,C1
+dataset_30,sample22.py,Simple Assignment,7,7,4,A1
+dataset_30,sample22.py,Simple Assignment,24,24,4,A1
+dataset_30,sample22.py,Simple Assignment,25,25,4,A1
+dataset_30,sample22.py,Simple Assignment,26,26,4,A1
+dataset_30,sample22.py,Simple Assignment,27,28,4,A1
+dataset_30,sample22.py,Simple Assignment,38,39,4,A1
+dataset_30,sample22.py,Simple Assignment,40,40,4,A1
+dataset_30,sample22.py,Simple Assignment,43,43,4,A1
+dataset_30,sample22.py,Simple Assignment,10,10,8,A1
+dataset_30,sample22.py,Simple Assignment,11,11,8,A1
+dataset_30,sample22.py,Import're' module,3,3,0,C1
+dataset_30,sample22.py,From,4,4,0,A2
+dataset_30,sample22.py,If statements using → __name__ == ‘__main__’,47,48,0,B2
+dataset_30,sample22.py,Simple If statements,19,20,8,A1
+dataset_30,sample22.py,For Loop with Tuple as name,18,20,4,A2
+dataset_30,sample22.py,Simple For Loop,33,34,4,A1
+dataset_30,sample22.py,Function with Simple argument,17,20,0,A1
+dataset_30,sample22.py,Function with Simple argument with Default argument,23,29,0,A2
+dataset_30,sample22.py,Function with Simple argument,32,34,0,A1
+dataset_30,sample22.py,Function,37,44,0,A1
+dataset_30,sample22.py,Function with Simple argument,9,11,4,A1
+dataset_30,sample22.py,Function with Simple argument,13,14,4,A1
+dataset_30,sample22.py,Return,29,29,4,A1
+dataset_30,sample22.py,Return,14,14,8,A1
+dataset_30,sample22.py,Generator Function (yield),34,34,8,C1
+dataset_30,sample22.py,Generator Function (yield),20,20,12,C1
+dataset_30,sample22.py,Simple Class ,6,14,0,B1

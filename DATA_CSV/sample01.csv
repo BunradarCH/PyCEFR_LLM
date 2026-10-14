@@ -1,0 +1,11 @@
+Repository,File Name,Class,Start Line,End Line,Displacement,Level
+dataset_30,sample01.py,Simple List,3,3,9,A1
+dataset_30,sample01.py,Print,12,12,0,A1
+dataset_30,sample01.py,Print,7,7,8,A1
+dataset_30,sample01.py,If statements expression (else),10,10,11,B1
+dataset_30,sample01.py,Simple Assignment,3,3,0,A1
+dataset_30,sample01.py,Simple Assignment,4,4,0,A1
+dataset_30,sample01.py,Simple If statements,6,7,4,A1
+dataset_30,sample01.py,Simple For Loop,5,7,0,A1
+dataset_30,sample01.py,Function with Simple argument,9,10,0,A1
+dataset_30,sample01.py,Return,10,10,4,A1

@@ -1,0 +1,31 @@
+Repository,File Name,Class,Start Line,End Line,Displacement,Level
+dataset_30,sample15.py,Simple List,3,3,9,A1
+dataset_30,sample15.py,Simple List,15,15,13,A1
+dataset_30,sample15.py,Simple List,23,23,13,A1
+dataset_30,sample15.py,Simple Tuple,16,16,8,A1
+dataset_30,sample15.py,Simple Tuple,11,11,12,A1
+dataset_30,sample15.py,Print,4,4,0,A1
+dataset_30,sample15.py,Print,13,13,0,A1
+dataset_30,sample15.py,Print,20,20,0,A1
+dataset_30,sample15.py,Print,29,29,0,A1
+dataset_30,sample15.py,'zip' call function,16,16,23,C2
+dataset_30,sample15.py,Print,8,8,8,A1
+dataset_30,sample15.py,If statements expression (else),11,11,20,B1
+dataset_30,sample15.py,Simple Atributte,17,17,8,A2
+dataset_30,sample15.py,Simple Atributte,26,26,8,A2
+dataset_30,sample15.py,Simple List Comprehension,11,11,11,C1
+dataset_30,sample15.py,Simple Assignment,3,3,0,A1
+dataset_30,sample15.py,Simple Assignment,15,15,4,A1
+dataset_30,sample15.py,Simple Assignment,22,22,4,A1
+dataset_30,sample15.py,Simple Assignment,23,23,4,A1
+dataset_30,sample15.py,Simplified incremental Assignment with increase amount,25,25,8,A2
+dataset_30,sample15.py,Simple If statements,7,8,4,A1
+dataset_30,sample15.py,Simple For Loop,6,8,0,A1
+dataset_30,sample15.py,For Loop with Tuple as name,16,17,4,A2
+dataset_30,sample15.py,Simple For Loop,24,26,4,A1
+dataset_30,sample15.py,Function with Simple argument,10,11,0,A1
+dataset_30,sample15.py,Function with Simple argument,14,18,0,A1
+dataset_30,sample15.py,Function with Simple argument,21,27,0,A1
+dataset_30,sample15.py,Return,11,11,4,A1
+dataset_30,sample15.py,Return,18,18,4,A1
+dataset_30,sample15.py,Return,27,27,4,A1

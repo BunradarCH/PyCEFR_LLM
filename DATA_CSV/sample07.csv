@@ -1,0 +1,53 @@
+Repository,File Name,Class,Start Line,End Line,Displacement,Level
+dataset_30,sample07.py,Simple List,3,3,9,A1
+dataset_30,sample07.py,Simple List,41,41,13,A1
+dataset_30,sample07.py,Simple List,11,11,22,A1
+dataset_30,sample07.py,Simple List,11,11,33,A1
+dataset_30,sample07.py,Simple Tuple,42,42,8,A1
+dataset_30,sample07.py,2 List Dictionary,11,11,13,B1
+dataset_30,sample07.py,Simple Dictionary,19,19,13,A2
+dataset_30,sample07.py,Simple Dictionary,44,44,22,A2
+dataset_30,sample07.py,Print,4,4,0,A1
+dataset_30,sample07.py,Print,17,17,0,A1
+dataset_30,sample07.py,Print,29,29,0,A1
+dataset_30,sample07.py,Print,39,39,0,A1
+dataset_30,sample07.py,'enumerate' call function,42,42,28,C2
+dataset_30,sample07.py,Print,48,48,4,A1
+dataset_30,sample07.py,Print,8,8,8,A1
+dataset_30,sample07.py,If statements expression (else),37,37,11,B1
+dataset_30,sample07.py,If statements expression (else),13,13,14,B1
+dataset_30,sample07.py,If statements expression (else),43,43,17,B1
+dataset_30,sample07.py,Simple Atributte,14,14,8,A2
+dataset_30,sample07.py,Simple Atributte,44,44,8,A2
+dataset_30,sample07.py,List Comprehension with 1If statements,36,36,15,C1
+dataset_30,sample07.py,Simple Assignment,3,3,0,A1
+dataset_30,sample07.py,Simple Assignment,11,11,4,A1
+dataset_30,sample07.py,Simple Assignment,19,19,4,A1
+dataset_30,sample07.py,Simple Assignment,33,33,4,A1
+dataset_30,sample07.py,Simple Assignment,34,34,4,A1
+dataset_30,sample07.py,Simple Assignment,35,35,4,A1
+dataset_30,sample07.py,Simple Assignment,36,36,4,A1
+dataset_30,sample07.py,Simple Assignment,41,41,4,A1
+dataset_30,sample07.py,Simple Assignment,13,13,8,A1
+dataset_30,sample07.py,Simple Assignment,43,43,8,A1
+dataset_30,sample07.py,Simplified incremental Assignment with increase amount,22,22,12,A2
+dataset_30,sample07.py,Simplified incremental Assignment with increase amount,24,24,12,A2
+dataset_30,sample07.py,Simplified incremental Assignment with increase amount,26,26,12,A2
+dataset_30,sample07.py,Simple If statements,7,8,4,A1
+dataset_30,sample07.py,Simple If statements,31,32,4,A1
+dataset_30,sample07.py,Simple If statements,21,26,8,A1
+dataset_30,sample07.py,Simple If statements,23,26,8,A1
+dataset_30,sample07.py,Simple For Loop,6,8,0,A1
+dataset_30,sample07.py,Simple For Loop,47,48,0,A1
+dataset_30,sample07.py,Simple For Loop,12,14,4,A1
+dataset_30,sample07.py,Simple For Loop,20,26,4,A1
+dataset_30,sample07.py,For Loop with Tuple as name,42,44,4,A2
+dataset_30,sample07.py,Function with Simple argument,10,15,0,A1
+dataset_30,sample07.py,Function with Simple argument,18,27,0,A1
+dataset_30,sample07.py,Function with Simple argument,30,37,0,A1
+dataset_30,sample07.py,Function with Simple argument,40,45,0,A1
+dataset_30,sample07.py,Return,15,15,4,A1
+dataset_30,sample07.py,Return,27,27,4,A1
+dataset_30,sample07.py,Return,37,37,4,A1
+dataset_30,sample07.py,Return,45,45,4,A1
+dataset_30,sample07.py,Return,32,32,8,A1

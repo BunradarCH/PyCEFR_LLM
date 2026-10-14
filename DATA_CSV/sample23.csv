@@ -1,0 +1,48 @@
+Repository,File Name,Class,Start Line,End Line,Displacement,Level
+dataset_30,sample23.py,Simple List,3,3,9,A1
+dataset_30,sample23.py,Simple List,42,42,13,A1
+dataset_30,sample23.py,Simple List,21,21,22,A1
+dataset_30,sample23.py,Print,4,4,0,A1
+dataset_30,sample23.py,Print,14,14,0,A1
+dataset_30,sample23.py,Print,32,32,0,A1
+dataset_30,sample23.py,Print,39,39,0,A1
+dataset_30,sample23.py,Print,48,48,0,A1
+dataset_30,sample23.py,Print,8,8,8,A1
+dataset_30,sample23.py,'range' call function,37,37,21,A2
+dataset_30,sample23.py,If statements expression (else),11,11,14,B1
+dataset_30,sample23.py,Simple Atributte,21,21,8,A2
+dataset_30,sample23.py,Simple Atributte,31,31,4,A2
+dataset_30,sample23.py,Simple Atributte,32,32,6,A2
+dataset_30,sample23.py,Simple Atributte,24,24,8,A2
+dataset_30,sample23.py,Simple Atributte,27,27,15,A2
+dataset_30,sample23.py,Simple Atributte,45,45,8,A2
+dataset_30,sample23.py,Simple Atributte,24,24,8,A2
+dataset_30,sample23.py,Simple Atributte,27,27,15,A2
+dataset_30,sample23.py,Simple List Comprehension,12,12,11,C1
+dataset_30,sample23.py,Simple List Comprehension,36,37,11,C1
+dataset_30,sample23.py,Simple Assignment,3,3,0,A1
+dataset_30,sample23.py,Simple Assignment,17,17,0,A1
+dataset_30,sample23.py,Simple Assignment,29,29,0,A1
+dataset_30,sample23.py,Simple Assignment,11,11,4,A1
+dataset_30,sample23.py,Simple Assignment,41,41,4,A1
+dataset_30,sample23.py,Simple Assignment,42,42,4,A1
+dataset_30,sample23.py,Simple Assignment,21,21,8,A1
+dataset_30,sample23.py,Simplified incremental Assignment with increase amount,44,44,8,A2
+dataset_30,sample23.py,'raise' exception,35,35,8,B1
+dataset_30,sample23.py,From,15,15,0,A2
+dataset_30,sample23.py,Simple If statements,7,8,4,A1
+dataset_30,sample23.py,Simple If statements,34,35,4,A1
+dataset_30,sample23.py,Simple For Loop,6,8,0,A1
+dataset_30,sample23.py,Simple For Loop,30,31,0,A1
+dataset_30,sample23.py,Simple For Loop,43,45,4,A1
+dataset_30,sample23.py,Function with Simple argument,10,12,0,A1
+dataset_30,sample23.py,Function with Simple argument with Default argument,33,37,0,A2
+dataset_30,sample23.py,Function with Simple argument,40,46,0,A1
+dataset_30,sample23.py,Function with Simple argument,20,21,4,A1
+dataset_30,sample23.py,Function with Simple argument,23,24,4,A1
+dataset_30,sample23.py,Function with Simple argument,26,27,4,A1
+dataset_30,sample23.py,Return,12,12,4,A1
+dataset_30,sample23.py,Return,36,37,4,A1
+dataset_30,sample23.py,Return,46,46,4,A1
+dataset_30,sample23.py,Return,27,27,8,A1
+dataset_30,sample23.py,Simple Class  Using the constructor method --> __init__,19,27,0,B1

@@ -1,0 +1,47 @@
+Repository,File Name,Class,Start Line,End Line,Displacement,Level
+dataset_30,sample30.py,Simple List,3,3,9,A1
+dataset_30,sample30.py,Simple List,34,34,13,A1
+dataset_30,sample30.py,Simple List,19,19,40,A1
+dataset_30,sample30.py,Simple Tuple,35,35,8,A1
+dataset_30,sample30.py,Simple Tuple,11,11,12,A1
+dataset_30,sample30.py,1 List Dictionary,19,19,15,B1
+dataset_30,sample30.py,Print,4,4,0,A1
+dataset_30,sample30.py,Print,13,13,0,A1
+dataset_30,sample30.py,Print,32,32,0,A1
+dataset_30,sample30.py,Print,39,39,0,A1
+dataset_30,sample30.py,Print,49,49,0,A1
+dataset_30,sample30.py,'zip' call function,35,35,23,C2
+dataset_30,sample30.py,Print,8,8,8,A1
+dataset_30,sample30.py,Print,24,24,8,A1
+dataset_30,sample30.py,If statements expression (else),47,47,11,B1
+dataset_30,sample30.py,If statements expression (else),11,11,20,B1
+dataset_30,sample30.py,Simple Atributte,32,32,6,A2
+dataset_30,sample30.py,Simple Atributte,28,28,8,A2
+dataset_30,sample30.py,Simple Atributte,36,36,8,A2
+dataset_30,sample30.py,Simple Atributte,29,29,14,A2
+dataset_30,sample30.py,Simple List Comprehension,11,11,11,C1
+dataset_30,sample30.py,List Comprehension with 1If statements,46,46,15,C1
+dataset_30,sample30.py,Simple Assignment,3,3,0,A1
+dataset_30,sample30.py,Simple Assignment,19,19,4,A1
+dataset_30,sample30.py,Simple Assignment,34,34,4,A1
+dataset_30,sample30.py,Simple Assignment,43,43,4,A1
+dataset_30,sample30.py,Simple Assignment,44,44,4,A1
+dataset_30,sample30.py,Simple Assignment,45,45,4,A1
+dataset_30,sample30.py,Simple Assignment,46,46,4,A1
+dataset_30,sample30.py,Simple Assignment,23,23,8,A1
+dataset_30,sample30.py,Import,15,15,0,A2
+dataset_30,sample30.py,From,14,14,0,A2
+dataset_30,sample30.py,Simple If statements,7,8,4,A1
+dataset_30,sample30.py,Simple If statements,41,42,4,A1
+dataset_30,sample30.py,Simple For Loop,6,8,0,A1
+dataset_30,sample30.py,For Loop with Tuple as name,35,36,4,A2
+dataset_30,sample30.py,Exception --> try/finally,20,24,4,B2
+dataset_30,sample30.py,Function with Simple argument,10,11,0,A1
+dataset_30,sample30.py,Function with Simple argument,33,37,0,A1
+dataset_30,sample30.py,Function with Simple argument,40,47,0,A1
+dataset_30,sample30.py,Return,11,11,4,A1
+dataset_30,sample30.py,Return,37,37,4,A1
+dataset_30,sample30.py,Return,47,47,4,A1
+dataset_30,sample30.py,Return,30,30,8,A1
+dataset_30,sample30.py,Return,42,42,8,A1
+dataset_30,sample30.py,Generator Function (yield),21,21,8,C1

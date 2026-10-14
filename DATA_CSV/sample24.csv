@@ -1,0 +1,64 @@
+Repository,File Name,Class,Start Line,End Line,Displacement,Level
+dataset_30,sample24.py,Simple List,3,3,9,A1
+dataset_30,sample24.py,1 Nested List,23,23,9,A2
+dataset_30,sample24.py,1 Nested List,23,23,13,A2
+dataset_30,sample24.py,Simple List,57,57,13,A1
+dataset_30,sample24.py,Simple List,23,23,17,A1
+dataset_30,sample24.py,Simple Tuple,58,58,8,A1
+dataset_30,sample24.py,Simple Tuple,18,18,63,A1
+dataset_30,sample24.py,Simple Dictionary,35,35,13,A2
+dataset_30,sample24.py,Simple Dictionary,60,60,22,A2
+dataset_30,sample24.py,Print,4,4,0,A1
+dataset_30,sample24.py,Print,13,13,0,A1
+dataset_30,sample24.py,Print,24,24,0,A1
+dataset_30,sample24.py,Print,33,33,0,A1
+dataset_30,sample24.py,Print,45,45,0,A1
+dataset_30,sample24.py,Print,55,55,0,A1
+dataset_30,sample24.py,'enumerate' call function,58,58,28,C2
+dataset_30,sample24.py,Print,64,64,4,A1
+dataset_30,sample24.py,Print,8,8,8,A1
+dataset_30,sample24.py,If statements expression (else),53,53,11,B1
+dataset_30,sample24.py,If statements expression (else),59,59,17,B1
+dataset_30,sample24.py,If statements expression (else),30,30,15,B1
+dataset_30,sample24.py,Simple Atributte,30,30,8,A2
+dataset_30,sample24.py,Simple Atributte,60,60,8,A2
+dataset_30,sample24.py,List Comprehension with 1If statements,52,52,15,C1
+dataset_30,sample24.py,Simple Assignment,3,3,0,A1
+dataset_30,sample24.py,Simple Assignment,23,23,0,A1
+dataset_30,sample24.py,Simple Assignment,28,28,4,A1
+dataset_30,sample24.py,Simple Assignment,35,35,4,A1
+dataset_30,sample24.py,Simple Assignment,49,49,4,A1
+dataset_30,sample24.py,Simple Assignment,50,50,4,A1
+dataset_30,sample24.py,Simple Assignment,51,51,4,A1
+dataset_30,sample24.py,Simple Assignment,52,52,4,A1
+dataset_30,sample24.py,Simple Assignment,57,57,4,A1
+dataset_30,sample24.py,Simple Assignment,59,59,8,A1
+dataset_30,sample24.py,Simplified incremental Assignment with increase amount,38,38,12,A2
+dataset_30,sample24.py,Simplified incremental Assignment with increase amount,40,40,12,A2
+dataset_30,sample24.py,Simplified incremental Assignment with increase amount,42,42,12,A2
+dataset_30,sample24.py,From,14,14,0,A2
+dataset_30,sample24.py,From,25,25,0,A2
+dataset_30,sample24.py,Simple If statements,7,8,4,A1
+dataset_30,sample24.py,Simple If statements,47,48,4,A1
+dataset_30,sample24.py,Simple If statements,18,21,8,A1
+dataset_30,sample24.py,Simple If statements,37,42,8,A1
+dataset_30,sample24.py,Simple If statements,39,42,8,A1
+dataset_30,sample24.py,Simple For Loop,6,8,0,A1
+dataset_30,sample24.py,Simple For Loop,63,64,0,A1
+dataset_30,sample24.py,Simple For Loop,17,21,4,A1
+dataset_30,sample24.py,Simple For Loop,29,30,4,A1
+dataset_30,sample24.py,Simple For Loop,36,42,4,A1
+dataset_30,sample24.py,For Loop with Tuple as name,58,60,4,A2
+dataset_30,sample24.py,Function with Simple argument,10,11,0,A1
+dataset_30,sample24.py,Recursive Functions,16,21,0,B2
+dataset_30,sample24.py,Function with Simple argument,27,31,0,A1
+dataset_30,sample24.py,Function with Simple argument,34,43,0,A1
+dataset_30,sample24.py,Function with Simple argument,46,53,0,A1
+dataset_30,sample24.py,Function with Simple argument,56,61,0,A1
+dataset_30,sample24.py,Return,11,11,4,A1
+dataset_30,sample24.py,Return,31,31,4,A1
+dataset_30,sample24.py,Return,43,43,4,A1
+dataset_30,sample24.py,Return,53,53,4,A1
+dataset_30,sample24.py,Return,61,61,4,A1
+dataset_30,sample24.py,Return,48,48,8,A1
+dataset_30,sample24.py,Generator Function (yield),21,21,12,C1

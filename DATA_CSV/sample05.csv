@@ -1,0 +1,25 @@
+Repository,File Name,Class,Start Line,End Line,Displacement,Level
+dataset_30,sample05.py,Simple List,3,3,8,A1
+dataset_30,sample05.py,Simple List,8,8,9,A1
+dataset_30,sample05.py,Simple Tuple,4,4,4,A1
+dataset_30,sample05.py,'enumerate' call function,4,4,19,C2
+dataset_30,sample05.py,Print,13,13,0,A1
+dataset_30,sample05.py,Print,23,23,0,A1
+dataset_30,sample05.py,Print,6,6,8,A1
+dataset_30,sample05.py,If statements expression (else),11,11,11,B1
+dataset_30,sample05.py,If statements expression (else),21,21,11,B1
+dataset_30,sample05.py,List Comprehension with 1If statements,20,20,15,C1
+dataset_30,sample05.py,Simple Assignment,3,3,0,A1
+dataset_30,sample05.py,Simple Assignment,8,8,0,A1
+dataset_30,sample05.py,Simple Assignment,17,17,4,A1
+dataset_30,sample05.py,Simple Assignment,18,18,4,A1
+dataset_30,sample05.py,Simple Assignment,19,19,4,A1
+dataset_30,sample05.py,Simple Assignment,20,20,4,A1
+dataset_30,sample05.py,Simple If statements,5,6,4,A1
+dataset_30,sample05.py,Simple If statements,15,16,4,A1
+dataset_30,sample05.py,For Loop with Tuple as name,4,6,0,A2
+dataset_30,sample05.py,Function with Simple argument,10,11,0,A1
+dataset_30,sample05.py,Function with Simple argument,14,21,0,A1
+dataset_30,sample05.py,Return,11,11,4,A1
+dataset_30,sample05.py,Return,21,21,4,A1
+dataset_30,sample05.py,Return,16,16,8,A1

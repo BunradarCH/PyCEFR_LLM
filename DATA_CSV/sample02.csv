@@ -1,0 +1,22 @@
+Repository,File Name,Class,Start Line,End Line,Displacement,Level
+dataset_30,sample02.py,Simple List,3,3,8,A1
+dataset_30,sample02.py,Simple List,9,9,9,A1
+dataset_30,sample02.py,Simple List,17,17,13,A1
+dataset_30,sample02.py,Print,14,14,0,A1
+dataset_30,sample02.py,Print,23,23,0,A1
+dataset_30,sample02.py,Print,7,7,8,A1
+dataset_30,sample02.py,If statements expression (else),12,12,11,B1
+dataset_30,sample02.py,Simple Atributte,20,20,8,A2
+dataset_30,sample02.py,Simple Assignment,3,3,0,A1
+dataset_30,sample02.py,Simple Assignment,4,4,0,A1
+dataset_30,sample02.py,Simple Assignment,9,9,0,A1
+dataset_30,sample02.py,Simple Assignment,16,16,4,A1
+dataset_30,sample02.py,Simple Assignment,17,17,4,A1
+dataset_30,sample02.py,Simplified incremental Assignment with increase amount,19,19,8,A2
+dataset_30,sample02.py,Simple If statements,6,7,4,A1
+dataset_30,sample02.py,Simple For Loop,5,7,0,A1
+dataset_30,sample02.py,Simple For Loop,18,20,4,A1
+dataset_30,sample02.py,Function with Simple argument,11,12,0,A1
+dataset_30,sample02.py,Function with Simple argument,15,21,0,A1
+dataset_30,sample02.py,Return,12,12,4,A1
+dataset_30,sample02.py,Return,21,21,4,A1

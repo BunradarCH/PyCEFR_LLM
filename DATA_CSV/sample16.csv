@@ -1,0 +1,24 @@
+Repository,File Name,Class,Start Line,End Line,Displacement,Level
+dataset_30,sample16.py,Simple List,3,3,9,A1
+dataset_30,sample16.py,Simple List,26,26,15,A1
+dataset_30,sample16.py,Simple Dictionary,12,12,11,A2
+dataset_30,sample16.py,Print,4,4,0,A1
+dataset_30,sample16.py,Print,15,15,0,A1
+dataset_30,sample16.py,Print,27,27,0,A1
+dataset_30,sample16.py,Print,8,8,8,A1
+dataset_30,sample16.py,Simple Atributte,24,24,27,A2
+dataset_30,sample16.py,Simple Atributte,27,27,7,A2
+dataset_30,sample16.py,Simple Atributte,24,24,39,A2
+dataset_30,sample16.py,Simple List Comprehension,27,27,6,C1
+dataset_30,sample16.py,Simple Assignment,3,3,0,A1
+dataset_30,sample16.py,Simple Assignment,14,14,0,A1
+dataset_30,sample16.py,Simple Assignment,26,26,0,A1
+dataset_30,sample16.py,Simple Assignment,11,11,4,A1
+dataset_30,sample16.py,From,16,16,0,A2
+dataset_30,sample16.py,Simple If statements,7,8,4,A1
+dataset_30,sample16.py,Simple For Loop,6,8,0,A1
+dataset_30,sample16.py,Function with Simple argument,10,12,0,A1
+dataset_30,sample16.py,Function with Simple argument,23,24,4,A1
+dataset_30,sample16.py,Return,12,12,4,A1
+dataset_30,sample16.py,Return,24,24,8,A1
+dataset_30,sample16.py,Simple Class ,19,24,0,B1
