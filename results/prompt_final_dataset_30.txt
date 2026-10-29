@@ -1,0 +1,143 @@
+# Run Qwen on all 30 PyCEFR samples
+
+import json
+import torch
+import re
+from pathlib import Path
+
+output_dir = Path("/content/explanations")
+output_dir.mkdir(exist_ok=True)
+
+all_results = {}
+
+for index, (sample_name, sample_result) in enumerate(
+    sorted(samples.items()), start=1
+):
+    prompt = f"""
+You are a friendly Python programming tutor.
+
+Your task is to explain PyCEFR analysis results in
+clear, simple, and meaningful English for beginners.
+
+Here is the PyCEFR analysis for {sample_name}:
+
+{json.dumps(sample_result, indent=2)}
+
+Explain the results using the following structure:
+
+1. Total Number of Detected Elements
+Calculate the total by summing the counts in the
+"Levels" dictionary. Verify the calculation.
+
+2. CEFR Level Distribution
+Report the number of elements at each detected level.
+Briefly explain what this distribution indicates.
+
+3. Most Frequent CEFR Level
+Identify the level with the highest element count.
+Explain what this means for the analyzed code.
+
+4. Highest Detected CEFR Level
+Identify the highest CEFR level found and explain
+which more advanced concepts contribute to it,
+if the data provides that information.
+
+5. Python Programming Concepts
+Explain the important concepts identified by PyCEFR.
+For each concept, include its CEFR level and a short,
+beginner-friendly explanation of what it does.
+
+6. Overall Interpretation
+Write a meaningful concluding paragraph of 3-5 sentences.
+
+The conclusion must:
+- Explain what the distribution reveals about the
+  programming concepts used in this file.
+- Mention examples of basic and more advanced
+  concepts when supported by the analysis.
+- Explain how the highest detected level differs
+  from the most frequent level.
+- Help a beginner understand the practical meaning
+  of the analysis rather than simply repeating numbers.
+- Avoid generic conclusions such as
+  "These are the programming concepts found in the code."
+
+IMPORTANT RULES:
+- Use only the provided PyCEFR results.
+- Do not invent programming concepts or counts.
+- Calculate the total using only the "Levels" dictionary.
+- Do not count "Class" entries as additional elements.
+- Do not claim that the most frequent or highest level
+  represents the overall CEFR level of the program.
+- Use plain text only.
+- Do not use Markdown formatting.
+- Never use asterisks or bold formatting.
+- Keep the explanation informative but concise.
+- Do not add an introduction before section 1.
+"""
+
+    messages = [{"role": "user", "content": prompt}]
+
+    formatted_prompt = tokenizer.apply_chat_template(
+        messages,
+        tokenize=False,
+        add_generation_prompt=True,
+        enable_thinking=False
+    )
+
+    inputs = tokenizer(
+        formatted_prompt,
+        return_tensors="pt"
+    ).to(model.device)
+
+    with torch.no_grad():
+        outputs = model.generate(
+            **inputs,
+            max_new_tokens=650,
+            do_sample=False,
+            pad_token_id=tokenizer.eos_token_id
+        )
+
+    generated_tokens = outputs[0][
+        inputs["input_ids"].shape[-1]:
+    ]
+
+    explanation = tokenizer.decode(
+        generated_tokens,
+        skip_special_tokens=True
+    )
+
+    explanation = explanation.replace("**", "")
+    explanation = re.sub(
+        r"(?m)^\s*#{1,6}\s*", "", explanation
+    )
+
+    all_results[sample_name] = explanation
+
+    # Save each explanation immediately
+    output_file = output_dir / (
+        sample_name.replace(".py", ".txt")
+    )
+    output_file.write_text(
+        explanation,
+        encoding="utf-8"
+    )
+
+    print(f"[{index}/30] Completed: {sample_name}")
+
+# Save all explanations as one JSON file
+with open(
+    "/content/qwen_explanations.json",
+    "w",
+    encoding="utf-8"
+) as f:
+    json.dump(
+        all_results,
+        f,
+        indent=2,
+        ensure_ascii=False
+    )
+
+print("\nFinished all 30 samples!")
+print("Saved to /content/explanations/")
+print("Saved to /content/qwen_explanations.json")

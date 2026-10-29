@@ -1,0 +1,114 @@
+# test 2
+# Explain one PyCEFR sample using Qwen
+
+import json
+import torch
+
+# Load the PyCEFR dataset
+with open("/dataset_30.json", "r", encoding="utf-8") as f:
+    data = json.load(f)
+
+samples = data["dataset_30"]
+
+# Select one sample
+sample_name = "sample01.py"
+sample_result = samples[sample_name]
+
+
+prompt = f"""
+You are a friendly Python programming tutor.
+
+Your task is to explain PyCEFR analysis results in
+clear, simple, and meaningful English for beginners.
+
+Here is the PyCEFR analysis for {sample_name}:
+
+{json.dumps(sample_result, indent=2)}
+
+Explain the results using the following structure:
+
+1. Total Number of Detected Elements
+Calculate the total by summing the counts in the
+"Levels" dictionary. Verify the calculation.
+
+2. CEFR Level Distribution
+Report the number of elements at each detected level.
+Briefly explain what this distribution indicates.
+
+3. Most Frequent CEFR Level
+Identify the level with the highest element count.
+Explain what this means for the analyzed code.
+
+4. Highest Detected CEFR Level
+Identify the highest CEFR level found and explain
+which more advanced concepts contribute to it,
+if the data provides that information.
+
+5. Python Programming Concepts
+Explain the important concepts identified by PyCEFR.
+For each concept, include its CEFR level and a short,
+beginner-friendly explanation of what it does.
+
+6. Overall Interpretation
+Write a meaningful concluding paragraph of 3-4 sentences.
+
+The conclusion must:
+- Explain what the distribution reveals about the
+  programming concepts used in this file.
+- Mention examples of basic and more advanced
+  concepts when supported by the analysis.
+- Explain how the highest detected level differs
+  from the most frequent level.
+- Help a beginner understand the practical meaning
+  of the analysis rather than simply repeating numbers.
+- Avoid generic conclusions such as
+  "These are the programming concepts found in the code."
+
+IMPORTANT RULES:
+- Use only the provided PyCEFR results.
+- Do not invent programming concepts or counts.
+- Calculate the total using only the "Levels" dictionary.
+- Do not count "Class" entries as additional elements.
+- Do not claim that the most frequent or highest level
+  represents the overall CEFR level of the program.
+- Use plain text only.
+- Do not use Markdown formatting.
+- Never use asterisks or bold formatting.
+- Keep the explanation informative but concise.
+- Do not add an introduction before section 1.
+"""
+
+messages = [
+    {"role": "user", "content": prompt}
+]
+
+text = tokenizer.apply_chat_template(
+    messages,
+    tokenize=False,
+    add_generation_prompt=True,
+    enable_thinking=False
+)
+
+inputs = tokenizer(
+    text,
+    return_tensors="pt"
+).to(model.device)
+
+with torch.no_grad():
+    outputs = model.generate(
+        **inputs,
+        max_new_tokens=450,
+        do_sample=False,
+        pad_token_id=tokenizer.eos_token_id
+    )
+
+generated_tokens = outputs[0][inputs["input_ids"].shape[-1]:]
+
+explanation = tokenizer.decode(
+    generated_tokens,
+    skip_special_tokens=True
+)
+
+print("Sample:", sample_name)
+print("\nQwen Explanation:\n")
+print(explanation)

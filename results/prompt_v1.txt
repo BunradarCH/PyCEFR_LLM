@@ -1,0 +1,68 @@
+# test 1
+# Explain one PyCEFR sample using Qwen
+
+import json
+import torch
+
+sample_name = "sample01.py"
+sample_result = samples[sample_name]
+
+prompt = f"""
+You are an assistant explaining PyCEFR Python code analysis.
+
+Here is the PyCEFR analysis for {sample_name}:
+
+{json.dumps(sample_result, indent=2)}
+
+Explain the results in clear English for a beginner.
+
+Include:
+1. Total number of detected elements.
+2. Number of elements at each detected CEFR level.
+3. Most frequent CEFR level.
+4. Highest detected CEFR level.
+5. Python programming concepts identified by PyCEFR,
+   what they mean, and their assigned levels.
+
+Important rules:
+- Use only the provided PyCEFR results.
+- Do not invent Python concepts or element counts.
+- Do not claim that the most frequent or highest level
+  represents the overall difficulty of the program.
+- Keep the explanation concise.
+"""
+
+messages = [
+    {"role": "user", "content": prompt}
+]
+
+text = tokenizer.apply_chat_template(
+    messages,
+    tokenize=False,
+    add_generation_prompt=True,
+    enable_thinking=False
+)
+
+inputs = tokenizer(
+    text,
+    return_tensors="pt"
+).to(model.device)
+
+with torch.no_grad():
+    outputs = model.generate(
+        **inputs,
+        max_new_tokens=450,
+        do_sample=False,
+        pad_token_id=tokenizer.eos_token_id
+    )
+
+generated_tokens = outputs[0][inputs["input_ids"].shape[-1]:]
+
+explanation = tokenizer.decode(
+    generated_tokens,
+    skip_special_tokens=True
+)
+
+print("Sample:", sample_name)
+print("\nQwen Explanation:\n")
+print(explanation)

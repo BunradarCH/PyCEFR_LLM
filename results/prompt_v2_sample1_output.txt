@@ -1,0 +1,29 @@
+Sample: sample01.py
+
+Qwen Explanation:
+
+1. Total Number of Detected Elements  
+The "Levels" dictionary shows 9 elements at A1 and 1 at B1, totaling 10 elements. The calculation is 9 + 1 = 10.
+
+2. CEFR Level Distribution  
+There are 9 elements at A1 and 1 element at B1. This distribution shows that most of the code uses basic programming concepts, with only a few more advanced concepts.
+
+3. Most Frequent CEFR Level  
+The most frequent level is A1, which has 9 elements. This means that the majority of the code uses basic programming concepts that are typically taught in beginner courses.
+
+4. Highest Detected CEFR Level  
+The highest detected level is B1, which has 1 element. This indicates that there is one more advanced concept in the code, but it is only one element.
+
+5. Python Programming Concepts  
+The PyCEFR analysis identified the following concepts:  
+- Simple List: A1. A list is a way to store multiple items in a single variable.  
+- Print: A1. The print function displays text or values to the user.  
+- If statements expression (else): A1. This is used to make decisions in code based on conditions.  
+- Simple Assignment: A1. This is used to give a value to a variable.  
+- Simple If statements: A1. This is used to make decisions in code based on conditions.  
+- Simple For Loop: A1. This is used to repeat a block of code a specific number of times.  
+- Function with Simple argument: A1. A function is a block of code that can be reused, and it can take an argument.  
+- Return: A1. This is used to send a value back from a function.
+
+6. Overall Interpretation  
+The analysis shows that the code mainly uses basic programming concepts, which are typical for beginner-level programming. There are a few more advanced concepts, but they are only one element. The highest detected level is B1, which means there is one more advanced concept, but the majority of the code is still basic. This suggests that the code is suitable for beginners, with some elements that require a

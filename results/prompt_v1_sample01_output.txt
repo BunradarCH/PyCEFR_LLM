@@ -1,0 +1,27 @@
+Sample: sample01.py
+
+Qwen Explanation:
+
+Here's an explanation of the PyCEFR analysis for sample01.py:
+
+1. **Total number of detected elements**: 11 elements were identified in the code.
+
+2. **Number of elements at each detected CEFR level**:
+   - A1: 9 elements
+   - B1: 1 element
+
+3. **Most frequent CEFR level**: A1 is the most frequent, with 9 elements.
+
+4. **Highest detected CEFR level**: B1 is the highest level detected, with 1 element.
+
+5. **Python programming concepts identified by PyCEFR**:
+   - **Simple List**: 1 element (A1) – A list is a basic data structure to store multiple items.
+   - **Print**: 2 elements (A1) – Used to output text to the console.
+   - **If statements expression (else)**: 1 element (B1) – A conditional statement that executes code if a condition is true, with an optional else clause.
+   - **Simple Assignment**: 2 elements (A1) – Assigning a value to a variable.
+   - **Simple If statements**: 1 element (A1) – A basic conditional statement without an else.
+   - **Simple For Loop**: 1 element (A1) – A loop that iterates over a sequence.
+   - **Function with Simple argument**: 1 element (A1) – A function that takes a single parameter.
+   - **Return**: 1 element (A1) – Used to exit a function and return a value.
+
+The analysis shows that most of the code (9 elements) is at the A1 level, which is the basic level of CEFR for language proficiency. The code includes simple programming concepts like lists, print statements, and loops, which are fundamental to Python. Only one element is at the B1 level, indicating a slightly more complex concept like an if statement with an else clause.
